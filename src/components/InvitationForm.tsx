@@ -33,7 +33,7 @@ const InvitationForm: React.FC<InvitationFormProps> = ({ data, onDataChange, onR
         <div className="logo">
           <span className="logo-text">SOTRANS GROUP</span>
         </div>
-        <h1 className="form-title">Tạo Thiệp Mời Caravan</h1>
+        <h1 className="form-title">Tạo Thiệp Mời Caravan 2025</h1>
       </div>
 
       <div className="form-content">
@@ -61,13 +61,13 @@ const InvitationForm: React.FC<InvitationFormProps> = ({ data, onDataChange, onR
         </div>
 
         <div className="form-group">
-          <label className="form-label">3. Chức vụ:</label>
+          <label className="form-label">3. Chức danh:</label>
           <input
             type="text"
             className="form-input"
             value={data.position}
             onChange={(e) => handleInputChange('position', e.target.value)}
-            placeholder="Nhập chức vụ"
+            placeholder="Nhập chức danh"
           />
         </div>
 
@@ -99,7 +99,7 @@ const InvitationForm: React.FC<InvitationFormProps> = ({ data, onDataChange, onR
               className="btn btn-reset"
               onClick={onReset}
             >
-              Reset
+              LÀM MỚI
             </button>
           </div>
         </div>

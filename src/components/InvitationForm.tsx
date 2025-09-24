@@ -90,7 +90,7 @@ const InvitationForm: React.FC<InvitationFormProps> = ({ data, onDataChange, onR
               onClick={handleDownload}
               disabled={!data.fullName || !data.position || !data.companyName}
             >
-              Tải hình về máy
+              Tải thiệp về máy
             </button>
           </div>
 
